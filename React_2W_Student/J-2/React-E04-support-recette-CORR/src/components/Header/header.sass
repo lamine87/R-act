@@ -1,0 +1,31 @@
+.header
+  position: relative
+
+  &-image
+    width: 100%
+
+  &-content
+    position: absolute
+    bottom: 3em
+    left: 0
+    right: 0
+    color: #fff
+    text-align: center
+    text-shadow: 0 0 12px rgba(#000, .2)
+
+  &-title
+    font-size: 2em
+    text-transform: uppercase
+    margin-bottom: .25em
+
+  &-info
+    display: inline-block
+
+  &-info
+    &::before
+      content: "-"
+      margin: 0 1em
+
+    &:first-child
+      &::before
+        content: none

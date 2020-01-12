@@ -1,0 +1,36 @@
+.header{
+    background-image: url('http://images.marmitoncdn.org/recipephotos/multiphoto/dc/dc7a000f-eb4c-42f4-91a6-320545207e72_normal.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 10em;
+    margin: auto;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 1em;
+}
+
+.title{
+    font-size: 17px;
+    font-variant-caps: all-petite-caps;
+}
+.tiret{
+    margin: 6px
+}
+.subtitle{
+    font-size: 7px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 14%;
+}
+
+
+
+
+
+
