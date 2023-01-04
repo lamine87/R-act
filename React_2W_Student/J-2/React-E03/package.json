@@ -27,7 +27,7 @@
     "clean": "rm -rf .cache dist"
   },
   "dependencies": {
-    "json5": "^2.1.0",
+    "json5": "^2.2.2",
     "ra": "^0.9.7",
     "react": "^16.0.0",
     "react-dom": "^16.8.4",
